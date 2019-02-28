@@ -4,6 +4,66 @@ body{
     padding: 0; 
 }
 
+#logo{
+    display: inline;
+    top: 0; 
+    left: 0; 
+}
+
+.navbar{
+    background-color: black;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.navbar-brand{
+    display:inline;
+    position: absolute;
+    min-height: 100px;
+    padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    color: white;
+    background-color: black;
+}
+
+.navbar-inverse .navbar-nav li a{
+    color: #D5D5D5;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.btn{
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 12px 22px;
+    border: 2px solid white;
+}
+
+@media (max-width: 600px){
+    .carousel-caption{
+        display: none;
+    }
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    color:white;
+}
+
 .headerTitle{
     color: white;
     float: left;
